@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "msu-calculus-methods"
+version = "0.1.0"
+description = ""
+authors = ["DABND19"]
+readme = "README.md"
+packages = [{include = "msu_calculus_methods"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.24.0"
+matplotlib = "^3.6.2"
+notebook = "^6.5.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
